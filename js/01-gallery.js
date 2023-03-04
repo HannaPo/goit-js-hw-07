@@ -36,7 +36,7 @@ function handleClickImg(e) {
       window.removeEventListener('keydown', handleKeydownEsc);
     },
   });
-  modal.show();
+    modal.show();
 
   function handleKeydownEsc(e) {
     if (e.code !== 'Escape') return;
